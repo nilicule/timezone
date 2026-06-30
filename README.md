@@ -9,6 +9,10 @@ local time — no more manual timezone math.
 Open `index.html` in any browser. That's it — no build step, no server, and it
 works offline.
 
+When deploying (hosted at `https://n2g.dev/timezone/`), upload `og-card.png`
+alongside `index.html` so the social/Slack preview image resolves. The Open
+Graph URLs in `index.html` point at that path — update them if the host changes.
+
 ## What it does
 
 - **Now (live)** — every location ticks in real time.
