@@ -165,6 +165,12 @@
   .legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
 
   .empty { color: var(--muted); padding: 30px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+
+  .site-footer { margin-top: 34px; text-align: center; color: var(--muted); font-size: 13px; }
+  .site-footer .heart { color: var(--muted); transition: color .15s ease; }
+  .site-footer:hover .heart { color: #ff4d4d; }
+  .site-footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); }
+  .site-footer a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -221,6 +227,11 @@
     <span><i style="background:#05080d;border:1px solid #5b6bff66"></i> Shaded = night</span>
     <span><i style="border:1px solid #8aa0c8"></i> Hover a timezone region for its offset &amp; current time</span>
   </div>
+
+  <footer class="site-footer">
+    built with <span class="heart">&#9829;</span> ·
+    <a href="https://github.com/nilicule/timezone" target="_blank" rel="noopener">source on GitHub</a>
+  </footer>
 </div>
 
 <script>
